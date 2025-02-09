@@ -54,7 +54,7 @@ function newMove(e) {
         if (check(player)) {
             setTimeout(() => {
                 let vencedor = player === "X" ? jogador1 : jogador2;
-                alert(`O JOGADOR(A) ${vencedor} VENCEU! 🏆✨`);
+                alert(`JOGADOR(A) ${vencedor} VENCEU! 🏆✨`);
 
                 if (player === "X") { // implementando vitorias de x e O
                     vitoriasX++;
